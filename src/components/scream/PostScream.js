@@ -86,7 +86,7 @@ class PostScream extends Component {
           >
             <CloseIcon />
           </MyButton>
-          <DialogTitle>Post a new scream</DialogTitle>
+          <DialogTitle>Scream with your mask on!</DialogTitle>
           <DialogContent>
             <form onSubmit={this.handleSubmit}>
               <TextField
@@ -95,7 +95,7 @@ class PostScream extends Component {
                 label="SCREAM!!"
                 multiline
                 rows="3"
-                placeholder="Scream at your fellow apes"
+                placeholder="Mask on? SCREAM!"
                 error={errors.body ? true : false}
                 helperText={errors.body}
                 className={classes.textField}
